@@ -24,8 +24,8 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 5.15.config
-  DIY_P1_SH: diy5.15.sh
-  DIY_P2_SH: diy-part.sh
+  DIY_P1_SH: 5.15.sh
+  DIY_P2_SH: diy1.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
