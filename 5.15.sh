@@ -21,7 +21,7 @@ sed -i 's/KERNEL_PATCHVER:=5.10/KERNEL_PATCHVER:=5.15/g' ./target/linux/x86/Make
 #　git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/aliyundrive-webdav
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
-svn co https://github.com/linkease/istore/trunk/luci/luci-app-store package/luci-app-store
+#svn co https://github.com/linkease/istore/trunk/luci/luci-app-store package/luci-app-store
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/luci-app-store/Makefile
 # svn co https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
 git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
@@ -37,7 +37,8 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/lu
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
 git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
-git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
+#git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
+git clone https://github.com/sbwml/luci-app-alist.git package/luci-app-alist
 # git clone https://github.com/project-lede/luci-app-godproxy.git package/luci-app-godproxy
 # git clone https://github.com/garypang13/luci-app-dnsfilter.git package/luci-app-dnsfilter
 # git clone https://github.com/BCYDTZ/luci-app-UUGameAcc.git package/luci-app-UUGameAcc
