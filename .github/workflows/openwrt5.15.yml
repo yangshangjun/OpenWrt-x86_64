@@ -63,6 +63,11 @@ jobs:
         sudo rm -f /swapfile
         sudo apt clean
         docker rmi $(docker image ls -aq)
+        sudo rm -rf /swapfile /usr/share/dotnet /usr/local/lib/android /opt/ghc
+        df -h
+    
+    - name: cleanup old action artifacts
+      run: .github/workflows/purge_artifacts.sh ${{ secrets.REPO_ACCESS_TOKEN }}
         
     - name: 下载固件源码
       working-directory: /workdir
