@@ -63,6 +63,8 @@ git clone https://github.com/sbwml/luci-app-dae package/dae
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 git clone -b openwrt-18.06 https://github.com/tty228/luci-app-wechatpush.git package/luci-app-wechatpush
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
-merge_package https://github.com/vernesong/OpenClash OpenClash/luci-app-openclash
+merge_package https://github.com/fw876/helloworld helloworld/xray-core
+merge_package https://github.com/fw876/helloworld helloworld/xray-plugin
+#merge_package https://github.com/vernesong/OpenClash OpenClash/luci-app-openclash
 
 
